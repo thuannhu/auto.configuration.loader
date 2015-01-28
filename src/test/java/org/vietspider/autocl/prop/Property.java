@@ -1,7 +1,7 @@
 /***************************************************************************
  * Copyright 2014 by VietSpider - All rights reserved.                *    
  **************************************************************************/
-package org.vietspider.autocl.properties;
+package org.vietspider.autocl.prop;
 /**
  *  Author : Nhu Dinh Thuan
  *          Email:nhudinhthuan@gmail.com

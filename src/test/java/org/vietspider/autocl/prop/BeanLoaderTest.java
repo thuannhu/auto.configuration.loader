@@ -1,7 +1,7 @@
 /***************************************************************************
  * Copyright 2014 by VietSpider - All rights reserved.                *    
  **************************************************************************/
-package org.vietspider.autocl.properties;
+package org.vietspider.autocl.prop;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,6 +14,9 @@ import java.util.Properties;
 import junit.framework.TestCase;
 
 import org.junit.Test;
+import org.vietspider.autocl.prop.BeanListener;
+import org.vietspider.autocl.prop.BeanMapper;
+import org.vietspider.autocl.prop.ConfigLoader;
 
 /**
  *  Author : Nhu Dinh Thuan

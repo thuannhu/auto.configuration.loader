@@ -1,17 +1,19 @@
 /***************************************************************************
  * Copyright 2014 by VietSpider - All rights reserved.                *    
  **************************************************************************/
-package org.vietspider.autocl.properties;
+package org.vietspider.autocl.prop;
 /**
  *  Author : Nhu Dinh Thuan
  *          Email:nhudinhthuan@gmail.com
- * Jan 10, 2014
+ * Jan 12, 2014
  */
-public interface BeanListener<T> {
+import java.util.Properties;
 
-    void add(T bean);
+public interface PropertiesListener {
 
-    void update(T bean);
+    boolean isFile(String name);
 
-    void delete(T bean);
+    void update(Properties properties);
+
+    void delete(Properties properties);
 }
